@@ -63,8 +63,9 @@ Fig. S7: changes in drift rate and boundary height along the CBGT CLAW | `05_cla
 
 #### Steinmetz recordings
 
-Notebook 02 requires the original recordings from Steinmetz et al. (2019) (https://www.nature.com/articles/s41586-019-1787-x)
-- Official dataset: https://figshare.com/articles/dataset/Distributed_coding_of_choice_action_and_engagement_across_the_mouse_brain/9974357
+Notebook 02 requires the original recordings from https://www.nature.com/articles/s41586-019-1787-x
+
+Official dataset: https://figshare.com/articles/dataset/Distributed_coding_of_choice_action_and_engagement_across_the_mouse_brain/9974357
 
 Download and extract the following four sessions:
 
