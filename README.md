@@ -16,13 +16,15 @@ Run the notebooks in numerical order.
 Notebooks 01-07 create standardized derived data tables; notebooks 04, 05, 06, and 08 generate the manuscript figures.
 
 ## Repository structure
-notebooks/                 ordered analysis notebooks
-spn_figures/               shared analysis and plotting functions
-data/source/               source data 
-data/derived/              outputs created by notebooks
-figures/main/              Manuscript figure outputs
-figures/supporting/        Supporting Information figure outputs
-README.md 
+```text
+notebooks/              ordered analysis notebooks
+spn_figures/            shared analysis and plotting functions
+data/source/            source data and manifests
+data/derived/           compact outputs created by notebooks
+assets/static/          original task and circuit artwork
+figures/main/           main-text figure outputs
+figures/supporting/     Supporting Information figure outputs
+README.md               repository documentation
 
 ## Figures in the Manuscript
 Fig. 1A: schematic of mouse two-choice task
