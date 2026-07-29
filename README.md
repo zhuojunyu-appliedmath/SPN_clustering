@@ -70,6 +70,22 @@ Fig. S7: changes in drift rate and boundary height along the CBGT CLAW | `05_cla
 
 `02_steinmetz_spn_clustering.ipynb` and `03_ibl_spn_clustering.ipynb` apply the same inference pipeline to the Steinmetz and IBL recordings. 
 
+#### Steinmetz recordings
+
+Notebook 02 requires the original recordings from Steinmetz et al. (2019) (https://www.nature.com/articles/s41586-019-1787-x)
+- Official dataset: https://figshare.com/articles/dataset/Distributed_coding_of_choice_action_and_engagement_across_the_mouse_brain/9974357
+
+Download and extract the following four sessions:
+
+- `Hench_2017-06-18`
+- `Lederberg_2017-12-11`
+- `Radnitz_2017-01-12`
+- `Richards_2017-11-01`
+
+Place the four session folders directly under `data/source/steinmetz/`
+
+#### IBL recordings
+
 Both notebooks save four standardized outputs:
 
 - `unit_labels.csv`
