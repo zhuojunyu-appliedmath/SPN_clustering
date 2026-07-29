@@ -63,9 +63,13 @@ Fig. S7: changes in drift rate and boundary height along the CBGT CLAW | `05_cla
 
 #### Steinmetz recordings
 
-Notebook 02 requires the original recordings from https://www.nature.com/articles/s41586-019-1787-x
+Notebook 02 requires the original recordings from Steinmetz et al. (2019):
 
-Official dataset: https://figshare.com/articles/dataset/Distributed_coding_of_choice_action_and_engagement_across_the_mouse_brain/9974357
+https://www.nature.com/articles/s41586-019-1787-x
+
+Official dataset:
+
+https://figshare.com/articles/dataset/Distributed_coding_of_choice_action_and_engagement_across_the_mouse_brain/9974357
 
 Download and extract the following four sessions:
 
@@ -78,7 +82,24 @@ Place the four session folders directly under `data/source/steinmetz/`
 
 #### IBL recordings
 
-Both notebooks save four standardized outputs:
+Notebook 03 analyzes recordings from the IBL Brain-Wide Map dataset:
+
+https://www.nature.com/articles/s41586-025-09235-0
+
+Official data-release instructions:
+
+https://docs.internationalbrainlab.org/notebooks_external/data_release_brainwidemap.html
+
+ONE data-access documentation:
+
+https://int-brain-lab.github.io/ONE/notebooks/one_quickstart.html
+
+Users do not need to download the IBL recordings manually or add them to this repository. Notebook 03 connects to the public IBL OpenAlyx server through the ONE API and downloads the required data to the local ONE cache.
+
+The seven eligible sessions, insertion-search limits, and session-specific random seeds are listed in: 
+`data/source/ibl/insertion_manifest.csv`
+
+#### Both notebooks save four standardized outputs:
 
 - `unit_labels.csv`
 - `unit_profiles.csv.gz`
