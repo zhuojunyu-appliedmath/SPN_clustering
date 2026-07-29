@@ -37,7 +37,7 @@ Fig. 4A: schematic of control ensembles
 
 Fig. 4B: control ensemble changes along the CLAW | 05_claw_and_control_ensemble_figures.ipynb | figures/main/Fig4B_control_ensemble_transitions
 
-Fig. 5: CBGT model and empirical prediction tests | 08_prediction_boxplots.ipynb | figures/main/Fig5_multiplexed_iSPN_roles
+Fig. 5: model and empirical prediction tests | 08_prediction_boxplots.ipynb | figures/main/Fig5_multiplexed_iSPN_roles
 
 # Figures in the Supporting Information 
 Fig. S1A: schematic of full CBGT circuit 
