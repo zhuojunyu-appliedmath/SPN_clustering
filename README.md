@@ -35,7 +35,7 @@ Fig. 3B: IBL CLAW | 05_claw_and_control_ensemble_figures.ipynb | figures/main/Fi
 
 Fig. 4A: schematic of control ensembles 
 
-Fig. 4B: changes in control ensembles along the CBGT CLAW | 05_claw_and_control_ensemble_figures.ipynb | figures/main/Fig4B_control_ensemble_transitions
+Fig. 4B: changes in control ensemble engagement along the CBGT CLAW | 05_claw_and_control_ensemble_figures.ipynb | figures/main/Fig4B_control_ensemble_transitions
 
 Fig. 5: model and empirical prediction tests | 08_prediction_boxplots.ipynb | figures/main/Fig5_multiplexed_iSPN_roles
 
@@ -58,4 +58,4 @@ Fig. S5: schematic of control ensemble in the full CBGT circuit, reproduced from
 
 Fig. S6: Steinmetz CLAW | 05_claw_and_control_ensemble_figures.ipynb | figures/supporting/FigS6_steinmetz_claw
 
-Fig. S7: changes in drift rate and boundary height along the CBGT CLAW | 05_claw_and_control_ensemble_figures.ipynb | figures/supporting/FigS7_ddm_parameter_transitions |
+Fig. S7: changes in drift rate and boundary height along the CBGT CLAW | 05_claw_and_control_ensemble_figures.ipynb | figures/supporting/FigS7_ddm_parameter_transitions
