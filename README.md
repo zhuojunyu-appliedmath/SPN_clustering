@@ -16,7 +16,7 @@ Run the notebooks in numerical order.
 Notebooks 01-07 create standardized derived data tables; notebooks 04, 05, 06, 08, and 09 generate the manuscript figures.
 
 ## Figure directory
-# Figures in the Manuscript
+## Figures in the Manuscript
 Fig. 1A: schematic of mouse two-choice task
 
 Fig. 1B: schematic of reduced CBGT circuit
@@ -39,7 +39,7 @@ Fig. 4B: changes in control ensemble engagement along the CBGT CLAW | 05_claw_an
 
 Fig. 5: model and empirical prediction tests | 08_prediction_boxplots.ipynb | figures/main/Fig5_multiplexed_iSPN_roles
 
-# Figures in the Supporting Information 
+## Figures in the Supporting Information 
 Fig. S1A: schematic of full CBGT circuit 
 
 Fig. S1B: firing rates of CBGT populations 
