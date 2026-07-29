@@ -3,15 +3,6 @@ during decision-making" [link]
 
 ## Quick start
 
-Run Jupyter from the repository root.
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter lab
-```
-
 Run the notebooks in numerical order. 
 Notebooks 01-07 create standardized derived data tables; notebooks 04, 05, 06, and 08 generate the manuscript figures.
 
