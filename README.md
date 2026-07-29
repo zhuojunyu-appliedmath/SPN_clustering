@@ -68,7 +68,7 @@ Fig. S7: changes in drift rate and boundary height along the CBGT CLAW | `05_cla
 
 ### 02-03. Empirical SPN inference
 
-`02_steinmetz_spn_clustering.ipynb` and `03_ibl_spn_clustering.ipynb` apply the same analysis structure to the Steinmetz and IBL recordings. 
+`02_steinmetz_spn_clustering.ipynb` and `03_ibl_spn_clustering.ipynb` apply the same inference pipeline to the Steinmetz and IBL recordings. 
 
 Both notebooks save four standardized outputs:
 
