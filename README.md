@@ -13,7 +13,7 @@ jupyter lab
 ```
 
 Run the notebooks in numerical order. 
-Notebooks 01-07 create standardized derived data tables; notebooks 04, 05, 06, 08, and 09 generate the manuscript figures.
+Notebooks 01-07 create standardized derived data tables; notebooks 04, 05, 06, and 08 generate the manuscript figures.
 
 ## Figures in the Manuscript
 Fig. 1A: schematic of mouse two-choice task
@@ -64,11 +64,11 @@ Fig. S7: changes in drift rate and boundary height along the CBGT CLAW | `05_cla
 
 ### 01. CBGT reference patterns and validation
 
-`01_cbgt_reference_clustering.ipynb` reads the 300 simulated networks, constructs the 12-dimensional pre-decision features and full pre-decision firing-rate table, validates the two-stage clustering against known pathway/channel labels, prepares the simulated CLAW state table, and generates Fig. 1C-D and SI Fig. S1C-D.
+`01_cbgt_reference_clustering.ipynb` reads the 300 simulated networks, constructs the 12-dimensional pre-decision features and full pre-decision firing rate table, validates the two-stage clustering against known pathway/channel labels, prepares the simulated CLAW state table, and generates Fig. 1C-D.
 
 ### 02-03. Empirical SPN inference
 
-`02_steinmetz_spn_clustering.ipynb` and `03_ibl_spn_clustering.ipynb` apply the same analysis structure to the Steinmetz and IBL recordings. For IBL, notebook 03 preserves the two eligibility windows used in the attached analyses: subtype inference and the Fig. S4 profiles/correlations use 0.08-4.0 s reaction times, while the CLAW/prediction activity table is rebuilt from the same insertions with the 0.08-0.40 s window. The short-window table receives the unit labels inferred from the longer clustering window.
+`02_steinmetz_spn_clustering.ipynb` and `03_ibl_spn_clustering.ipynb` apply the same analysis structure to the Steinmetz and IBL recordings. 
 
 Both notebooks save four standardized outputs:
 
@@ -79,11 +79,13 @@ Both notebooks save four standardized outputs:
 
 ### 04. Empirical clustering figures
 
-`04_spn_clustering_figures.ipynb` uses only the derived files from notebooks 02-03. It generates Fig. 2 and SI Figs. S3-S4 without reloading spike trains.
+`04_spn_clustering_figures.ipynb` uses only the derived files from notebooks 02-03. 
+It generates Fig. 2 and SI Figs. S3-S4.
 
 ### 05. CLAWs and control ensembles
 
-`05_claw_and_control_ensemble_figures.ipynb` binarizes the four inferred SPN populations, compresses consecutive repetitions of the same state, estimates transition and terminal probabilities, and generates Fig. 3 and SI Fig. S6. It then projects CBGT state transitions onto the choice, responsiveness, and pliancy ensembles to generate Fig. 4B and SI Fig. S7.
+`05_claw_and_control_ensemble_figures.ipynb` binarizes the four inferred SPN populations, compresses consecutive repetitions of the same state, estimates transition and terminal probabilities, and generates Fig. 3 and SI Fig. S6. 
+It then projects CBGT state transitions onto the choice, responsiveness, and pliancy ensembles to generate Fig. 4B and SI Fig. S7.
 
 ### 06. ISI-shuffle control
 
@@ -91,31 +93,14 @@ Both notebooks save four standardized outputs:
 
 ### 07-08. Prediction analyses and boxplots
 
-`07_prediction_statistics.ipynb` performs the three planned analyses:
+`07_prediction_statistics.ipynb` performs statistical analyses for three predictions:
 
 1. Left-choice probability in iSPN-only versus dSPN-containing states.
 2. Terminal probability before and after same-channel dSPN+iSPN coactivation.
 3. Decision time with and without later opponent-channel iSPN recruitment.
 
-`08_prediction_boxplots.ipynb` generates Fig. 5 from the standardized bootstrap, raw-decision-time, and significance-test tables.
-
-### 09. Composite figures
-
-`09_assemble_complete_figures.ipynb` combines static task/circuit artwork with code-generated panels. It is the only notebook that requires the image files in `assets/static/`.
+`08_prediction_boxplots.ipynb` generates Fig. 5 from the standardized bootstrap, raw decision time, and significance test tables.
 
 ## Data layout
 
 See `data/README.md` for the exact source and derived file names, required columns, and upload recommendations.
-
-The most important rule is that all source files must use the standardized column names described there. This removes hard-coded, notebook-specific renaming and keeps the analysis code minimal.
-
-## Reproducibility notes
-
-- Run notebooks from the repository root.
-- Keep the manifest session names unchanged after derived files have been generated, because those names link profile, correlation, CLAW, and figure tables.
-- Random operations use fixed seeds.
-- Steinmetz contrast matching is based on absolute stimulus-evidence magnitude, whereas IBL matching uses signed-contrast quantile bins, following the attached dataset-specific analyses.
-- IBL clustering and Fig. S4 use the 0.08-4.0 s reaction-time window; IBL CLAW and prediction analyses use 0.08-0.40 s. Do not replace these with one global IBL cutoff unless the analysis plan is intentionally revised.
-- Empirical pathway labels are functional, model-guided assignments and are named `dSPN_left`, `iSPN_left`, `dSPN_right`, and `iSPN_right` throughout the repository.
-- Large source or derived data files should be tracked with Git LFS or stored in a linked data archive while preserving the paths documented here.
-
