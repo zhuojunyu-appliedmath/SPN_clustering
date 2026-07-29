@@ -89,7 +89,7 @@ It then projects CBGT state transitions onto the choice, responsiveness, and pli
 
 ### 06. ISI-shuffle control
 
-`06_steinmetz_isi_shuffle.ipynb` permutes each unit’s interspike intervals, reconstructs surrogate spike trains, reruns the full clustering procedure 50 times per recording, and reports the fraction of shuffles satisfying the prespecified SPN temporal-pattern criteria.
+`06_steinmetz_isi_shuffle.ipynb` permutes each unit’s interspike intervals, reconstructs surrogate spike trains, reruns the full clustering procedure 50 times per recording, and reports the fraction of shuffles satisfying the prespecified SPN temporal-pattern criteria. It generates SI Fig. S2.
 
 ### 07-08. Prediction analyses and boxplots
 
