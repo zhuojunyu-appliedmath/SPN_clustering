@@ -15,7 +15,6 @@ jupyter lab
 Run the notebooks in numerical order. 
 Notebooks 01-07 create standardized derived data tables; notebooks 04, 05, 06, 08, and 09 generate the manuscript figures.
 
-## Figure directory
 ## Figures in the Manuscript
 Fig. 1A: schematic of mouse two-choice task
 
