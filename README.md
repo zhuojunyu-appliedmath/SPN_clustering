@@ -24,7 +24,8 @@ data/derived/           compact outputs created by notebooks
 assets/static/          original task and circuit artwork
 figures/main/           main-text figure outputs
 figures/supporting/     Supporting Information figure outputs
-README.md               repository documentation
+README.md
+```
 
 ## Figures in the Manuscript
 Fig. 1A: schematic of mouse two-choice task
