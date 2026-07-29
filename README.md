@@ -46,7 +46,7 @@ Fig. S1B: firing rates of CBGT populations
 
 Fig. S1C: median decision time distributions of 300 CBGT networks
 
-Fig. S1D: SPN thresholds (Fig.S1-D reproduced from https://doi.org/10.1371/journal.pcbi.1012966)
+Fig. S1D: SPN thresholds (Fig. S1A-D reproduced from https://doi.org/10.1371/journal.pcbi.1012966)
 
 Fig. S2: Steinmetz ISI-shuffle control | 06_steinmetz_isi_shuffle.ipynb | figures/supporting/FigS2_isi_shuffle_control
 
