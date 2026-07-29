@@ -103,4 +103,4 @@ It then projects CBGT state transitions onto the choice, responsiveness, and pli
 
 ## Data layout
 
-See `data/README.md` for the exact source and derived file names, required columns, and upload recommendations.
+See `data/README.md` for the exact source and derived file names, required columns, and upload instructions.
