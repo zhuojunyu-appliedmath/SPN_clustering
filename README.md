@@ -94,13 +94,6 @@ https://int-brain-lab.github.io/ONE/notebooks/one_quickstart.html
 
 Users do not need to download the IBL recordings manually or add them to this repository. Notebook 03 connects to the public IBL OpenAlyx server through the ONE API and downloads the required data to the local ONE cache.
 
-#### Both notebooks save four standardized outputs:
-
-- `unit_labels.csv`
-- `unit_profiles.csv.gz`
-- `correlations.csv`
-- `population_activity_bins.csv.gz`
-
 ### 04. Empirical clustering figures
 
 `04_spn_clustering_figures.ipynb` uses only the derived files from notebooks 02-03. 
