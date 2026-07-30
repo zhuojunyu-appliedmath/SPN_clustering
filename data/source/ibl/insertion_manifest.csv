@@ -1,0 +1,8 @@
+session,lab,subject,date,max_insertions_to_process,random_seeds,premove_gap_s,rt_max_s
+churchlandlab | CSHL049 | 2020-01-08,churchlandlab,CSHL049,2020-01-08,200,70,0.01,4.0
+zadorlab | CSH_ZAD_026 | 2020-08-17,zadorlab,CSH_ZAD_026,2020-08-17,100,0,0.01,4.0
+danlab | DY_014 | 2020-07-18,danlab,DY_014,2020-07-18,200,4;50,0.01,4.0
+hoferlab | SWC_061 | 2020-11-23,hoferlab,SWC_061,2020-11-23,200,30,0.01,4.0
+mrsicflogellab | SWC_038 | 2020-08-01,mrsicflogellab,SWC_038,2020-08-01,100,2,0.01,4.0
+mrsicflogellab | SWC_038 | 2020-07-31,mrsicflogellab,SWC_038,2020-07-31,200,50,0.01,4.0
+cortexlab | KS086 | 2022-03-16,cortexlab,KS086,2022-03-16,200,60,0.01,4.0

@@ -1,0 +1,5 @@
+session,matching_seed,n_shuffles,n_pipeline_success,false_positive_count,false_positive_rate
+Hench_2017-06-18,2,50,50,2,0.04
+Lederberg_2017-12-11,4,50,45,0,0.0
+Radnitz_2017-01-12,5,50,48,0,0.0
+Richards_2017-11-01,27,50,50,3,0.06

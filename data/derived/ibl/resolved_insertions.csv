@@ -1,0 +1,8 @@
+session,eid,pid,probe,resolution_seed,scan_rank,max_insertions_to_process
+churchlandlab | CSHL049 | 2020-01-08,4b7fbad4-f6de-43b4-9b15-c7c7ef44db4b,fd555d39-b728-44aa-90d2-796b8bb58300,probe01,70,13,200
+zadorlab | CSH_ZAD_026 | 2020-08-17,81a78eac-9d36-4f90-a73a-7eb3ad7f770b,5011eba9-8926-4a73-b729-579d02676d25,probe00,0,26,100
+danlab | DY_014 | 2020-07-18,ee8b36de-779f-4dea-901f-e0141c95722b,1ef94d02-d51a-491f-a313-1bb5238d6b8b,probe01,4,76,200
+hoferlab | SWC_061 | 2020-11-23,493170a6-fd94-4ee4-884f-cc018c17eeb9,68f5f1e4-5e88-4aa5-8a1a-94b691adb11e,probe00,30,34,200
+mrsicflogellab | SWC_038 | 2020-08-01,03063955-2523-47bd-ae57-f7489dd40f15,7bd5627e-b02e-47f1-b476-4bf8eaa726b3,probe01,2,30,100
+mrsicflogellab | SWC_038 | 2020-07-31,1e45d992-c356-40e1-9be1-a506d944896f,2b3c3126-11f3-4a8e-aa44-2f965bf8ab9c,probe01,50,51,200
+cortexlab | KS086 | 2022-03-16,ffef0311-8ffa-49e3-a857-b3adf6d86e12,4279e354-a6b8-4eff-8245-7c8723b07834,probe00,60,56,200

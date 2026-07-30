@@ -1,0 +1,10 @@
+dataset,prediction,group,n_trials,n_units,n_left_choices,n_right_choices,state_8_episode_denominator,state_8_END_numerator,direct_8_to_10_episode_denominator,direct_8_to_10_then_END_numerator,state_4_episode_denominator,state_4_END_numerator,direct_4_to_5_episode_denominator,direct_4_to_5_then_END_numerator,comparison,source_state,dest_state,group_definition,n_direct_source_to_dest,n_ended_source,n_ended_dest
+CBGT,1,GU_visited_1_2_3,2562,212,1251.0,1311.0,,,,,,,,,,,,,,,
+CBGT,1,GL_visited_8_or_10,5047,297,4436.0,611.0,,,,,,,,,,,,,,,
+CBGT,1,GR_visited_4_or_5,5026,299,658.0,4368.0,,,,,,,,,,,,,,,
+CBGT,2,left_channel_8_to_10_base_V8,4269,292,,,4332.0,2279.0,726.0,553.0,,,,,,,,,,,
+CBGT,2,right_channel_4_to_5_base_V4,4281,292,,,,,,,4334.0,2368.0,700.0,530.0,,,,,,,
+CBGT,3,A,1368,270,,,,,,,,,,,left_channel_10_then_later_11,10.0,11.0,V(10)=1 and no later 11 after 10,0.0,1071.0,0.0
+CBGT,3,B,163,65,,,,,,,,,,,left_channel_10_then_later_11,10.0,11.0,V(10)=1 and later 11 after 10,146.0,4.0,105.0
+CBGT,3,A,1286,262,,,,,,,,,,,right_channel_5_then_later_7,5.0,7.0,V(5)=1 and no later 7 after 5,0.0,1019.0,0.0
+CBGT,3,B,178,70,,,,,,,,,,,right_channel_5_then_later_7,5.0,7.0,V(5)=1 and later 7 after 5,151.0,3.0,103.0

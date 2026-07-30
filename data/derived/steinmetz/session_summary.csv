@@ -1,0 +1,5 @@
+session,matching_seed,premove_gap_s,n_plot_trials,n_units_after_original_filters,n_units_assigned,n_dSPN_left,n_iSPN_left,n_dSPN_right,n_iSPN_right
+Hench_2017-06-18,2,0.01,146,53,50,3,19,24,4
+Lederberg_2017-12-11,4,0.01,148,31,29,3,13,9,4
+Radnitz_2017-01-12,5,0.01,24,50,50,7,15,25,3
+Richards_2017-11-01,27,0.01,68,35,35,5,7,10,13
