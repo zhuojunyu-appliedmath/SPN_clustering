@@ -96,9 +96,6 @@ https://int-brain-lab.github.io/ONE/notebooks/one_quickstart.html
 
 Users do not need to download the IBL recordings manually or add them to this repository. Notebook 03 connects to the public IBL OpenAlyx server through the ONE API and downloads the required data to the local ONE cache.
 
-The seven eligible sessions, insertion-search limits, and session-specific random seeds are listed in: 
-`data/source/ibl/insertion_manifest.csv`
-
 #### Both notebooks save four standardized outputs:
 
 - `unit_labels.csv`
