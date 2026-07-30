@@ -127,7 +127,3 @@ It then projects CBGT state transitions onto the control ensembles and DDM param
 3. Decision time with and without later opponent-channel iSPN recruitment.
 
 `08_prediction_boxplots.ipynb` generates Fig. 5 from the standardized bootstrap, raw decision time, and significance test tables.
-
-## Data layout
-
-See `data/README.md` for the exact source and derived file names, required columns, and upload instructions.
