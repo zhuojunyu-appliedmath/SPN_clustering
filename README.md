@@ -19,13 +19,11 @@ Fig. 1D: two-stage clustering schematic and validation | `01_cbgt_reference_clus
 
 Fig. 2: example empirical SPN profiles | `04_spn_clustering_figures.ipynb` | `figures/main/Fig2_example_empirical_spn_profiles`
 
-Fig. 3A: CBGT CLAW | `05_claw_and_control_ensemble_figures.ipynb` | `figures/main/Fig3A_cbgt_claw`
-
-Fig. 3B: IBL CLAW | `05_claw_and_control_ensemble_figures.ipynb` | `figures/main/Fig3B_ibl_claw`
+Fig. 3: CBGT and IBL CLAWs,  statistics from `05_claw_and_control_ensemble.ipynb` 
 
 Fig. 4A: schematic of control ensembles 
 
-Fig. 4B: changes in control ensemble engagement along the CBGT CLAW | `05_claw_and_control_ensemble_figures.ipynb` | `figures/main/Fig4B_control_ensemble_transitions`
+Fig. 4B: changes in control ensemble engagement along the CBGT CLAW,  statistics from `05_claw_and_control_ensemble.ipynb` 
 
 Fig. 5: model and empirical prediction tests | `08_prediction_boxplots.ipynb` | `figures/main/Fig5_multiplexed_iSPN_roles`
 
@@ -46,9 +44,9 @@ Fig. S4: all IBL clustering results | `04_spn_clustering_figures.ipynb` | `figur
 
 Fig. S5: schematic of control ensemble in the full CBGT circuit, reproduced from https://doi.org/10.64898/2026.02.17.706272
 
-Fig. S6: Steinmetz CLAW | `05_claw_and_control_ensemble_figures.ipynb` | `figures/supporting/FigS6_steinmetz_claw`
+Fig. S6: Steinmetz CLAW, statistics from `05_claw_and_control_ensemble.ipynb`
 
-Fig. S7: changes in drift rate and boundary height along the CBGT CLAW | `05_claw_and_control_ensemble_figures.ipynb` | `figures/supporting/FigS7_ddm_parameter_transitions`
+Fig. S7: changes in drift rate and boundary height along the CBGT CLAW, statistics from `05_claw_and_control_ensemble_figures.ipynb` 
 
 
 ## Notebook workflow
@@ -110,8 +108,11 @@ It generates Fig. 2 and SI Figs. S3-S4.
 
 ### 05. CLAWs and control ensembles
 
-`05_claw_and_control_ensemble_figures.ipynb` binarizes the four inferred SPN populations, compresses consecutive repetitions of the same state, estimates transition and terminal probabilities, and generates Fig. 3 and SI Fig. S6. 
-It then projects CBGT state transitions onto the choice, responsiveness, and pliancy ensembles to generate Fig. 4B and SI Fig. S7.
+`F_matrix.npy` and `D_matrix.npy` under `data/source/cbgt` were generated in https://doi.org/10.1371/journal.pcbi.1012966
+
+`05_claw_and_control_ensemble.ipynb` binarizes the four inferred SPN populations, compresses consecutive repetitions of the same state, estimates transition and terminal probabilities, and generates state-level behavioral statistics for Fig. 3 and SI Fig. S6. 
+
+It then projects CBGT state transitions onto the control ensembles and DDM parameters to generate state-level behavioral statistics for Fig. 4B and SI Fig. S7.
 
 ### 06. ISI-shuffle control
 
