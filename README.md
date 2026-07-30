@@ -4,7 +4,7 @@ during decision-making" [link]
 ## Quick start
 
 Run the notebooks in numerical order. 
-Notebooks 01-07 create standardized derived data tables; notebooks 04, 05, 06, and 08 generate figures in the Manuscript and the Supporting Information.
+Notebooks 01-07 create derived data tables; notebooks 04, 05, 06, and 08 generate figures in the Manuscript and the Supporting Information.
 
 ## Figures in the Manuscript
 Fig. 1A: schematic of mouse two-choice task
